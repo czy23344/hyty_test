@@ -10,7 +10,7 @@ public class ConverterUtil {
      * 16转10
      */
     public static String converter(String converter) {
-        return String.valueOf(Long.parseLong(converter, 16));
+        return String.valueOf(Long.parseLong(converter, 15));
     }
 
     /**
